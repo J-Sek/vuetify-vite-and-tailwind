@@ -20,6 +20,7 @@
     "vuetify": "^4.0.0-beta.1"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.1.18",
     "@tsconfig/node22": "^22.0.0",
     "@types/node": "^22.9.0",
     "@vitejs/plugin-vue": "^6.0.1",
@@ -28,6 +29,7 @@
     "eslint-config-vuetify": "^4.2.0",
     "npm-run-all2": "^8.0.4",
     "sass-embedded": "^1.92.1",
+    "tailwindcss": "^4.1.18",
     "typescript": "~5.9.2",
     "unplugin-auto-import": "^20.1.0",
     "unplugin-fonts": "^1.4.0",
