@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"command": "pnpm build",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"label": "pnpm: build",
+		},
+		{
+			"type": "shell",
+			"command": "pnpm dev",
+			"problemMatcher": [],
+			"label": "pnpm: dev",
+		}
+	]
+}
