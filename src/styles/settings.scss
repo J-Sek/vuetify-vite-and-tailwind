@@ -4,4 +4,21 @@
 
   $heading-font-family: var(--font-heading),
   $body-font-family: var(--font-body),
+
+  $grid-breakpoints: (
+    // repeated in tailwind.css and vuetify.ts
+    'xs': 0,
+    'sm': 400px,
+    'md': 840px,
+    'lg': 1145px,
+    'xl': 1545px,
+    'xxl': 2138px,
+  ),
+  $container-max-widths: (
+    // optional, computed from breakpoints
+    'md': 700px,
+    'lg': 1000px,
+    'xl': 1400px,
+    'xxl': 2000px,
+  ),
 );

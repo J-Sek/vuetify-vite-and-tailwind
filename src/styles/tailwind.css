@@ -30,6 +30,15 @@
   --color-secondary-600: #0087a4;
   --color-secondary-700: #097088;
   --color-secondary-800: #0d5d73;
+
+  --breakpoint-*: initial;
+  /* repeated in vuetify.ts and settings.scss */
+  --breakpoint-xs: 0px;
+  --breakpoint-sm: 400px;
+  --breakpoint-md: 840px;
+  --breakpoint-lg: 1145px;
+  --breakpoint-xl: 1545px;
+  --breakpoint-xxl: 2138px;
 }
 
 @custom-variant light (&:where(.v-theme--light, .v-theme--light *));
