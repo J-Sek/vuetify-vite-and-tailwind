@@ -1,3 +1,24 @@
 @import "tailwindcss/theme" layer(tailwind.theme);
 /* @import "tailwindcss/preflight.css" layer(tailwind.reset); <-- skipped intentionally */
 @import "tailwindcss/utilities" layer(tailwind.utilities);
+
+@config "../../tailwind.config.ts";
+
+@theme {
+  --radius-sm: 2px;
+  --radius-lg: 8px;
+  --radius-xl: 24px;
+}
+
+@utility rounded-0 { border-radius: 0 }
+@utility rounded-pill { border-radius: 9999px }
+@utility rounded-shaped { border-radius: 24px 0 }
+
+@source inline('rounded-0');
+@source inline('rounded-sm');
+@source inline('rounded'); /* leaving .25rem */
+@source inline('rounded-lg');
+@source inline('rounded-xl');
+@source inline('rounded-pill');
+@source inline('rounded-circle');
+@source inline('rounded-shaped');

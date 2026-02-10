@@ -18,7 +18,7 @@
           class="hero-card"
           color="surface-variant"
           image="https://cdn.vuetifyjs.com/docs/images/one/create/feature.png"
-          rounded="lg"
+          rounded="xl"
           variant="tonal"
         >
           <template #prepend>
@@ -50,7 +50,7 @@
           color="surface-variant"
           :href="link.href"
           rel="noopener noreferrer"
-          rounded="lg"
+          rounded="xl"
           :subtitle="link.subtitle"
           target="_blank"
           :title="link.title"
