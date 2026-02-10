@@ -5,6 +5,10 @@
 @config "../../tailwind.config.ts";
 
 @theme {
+  --font-heading: "Bricolage Grotesque", sans-serif;
+  --font-body: Sen, sans-serif;
+  --font-mono: "Sometype Mono", monospace;
+
   --radius-sm: 2px;
   --radius-lg: 8px;
   --radius-xl: 24px;
@@ -13,6 +17,10 @@
 @utility rounded-0 { border-radius: 0 }
 @utility rounded-pill { border-radius: 9999px }
 @utility rounded-shaped { border-radius: 24px 0 }
+
+@source inline('font-body');
+@source inline('font-heading');
+@source inline('font-mono');
 
 @source inline('rounded-0');
 @source inline('rounded-sm');

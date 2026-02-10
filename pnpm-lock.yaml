@@ -8,8 +8,17 @@ importers:
 
   .:
     dependencies:
+      '@fontsource/bricolage-grotesque':
+        specifier: ^5.2.10
+        version: 5.2.10
       '@fontsource/roboto':
         specifier: 5.2.7
+        version: 5.2.7
+      '@fontsource/sen':
+        specifier: ^5.2.8
+        version: 5.2.8
+      '@fontsource/sometype-mono':
+        specifier: ^5.2.7
         version: 5.2.7
       '@mdi/font':
         specifier: 7.4.47
@@ -322,8 +331,17 @@ packages:
     resolution: {integrity: sha512-43/qtrDUokr7LJqoF2c3+RInu/t4zfrpYdoSDfYyhg52rwLV6TnOvdG4fXm7IkSB3wErkcmJS9iEhjVtOSEjjA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
+  '@fontsource/bricolage-grotesque@5.2.10':
+    resolution: {integrity: sha512-V2xS+1P7C8IrSypXLUx/bLtX/LsTlYtV2k2CsU+S/0t8qepZ2hvKSlyJIx7Ub/iY8Bbnj+IjAuUF9nvFz+BbIg==}
+
   '@fontsource/roboto@5.2.7':
     resolution: {integrity: sha512-fca6Jtyxn6kPR51+TTTMCFm0FOhnKaLEYYiAQc8P/4iFCKoKGR0aX89QR4CfP+N64RPXJus64UxhJaVENnSM6Q==}
+
+  '@fontsource/sen@5.2.8':
+    resolution: {integrity: sha512-4pQixXXOS07A/sqVagrU7lrLD9OdSYpxftgwwfCxEZRIMToYFQQZXKso1JC4LUn9G8PMuk2Bk2vIDswBFLhlRQ==}
+
+  '@fontsource/sometype-mono@5.2.7':
+    resolution: {integrity: sha512-O4+MlxspnkU4LsoKeu+kBw2HzGoZZyJ+UWgxb28M9Ppcy/nxv1PgPO2p0gD4LWMu9IPVHjDSgrhGXz+5Vg9HJg==}
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
@@ -2327,7 +2345,13 @@ snapshots:
       '@eslint/core': 0.17.0
       levn: 0.4.1
 
+  '@fontsource/bricolage-grotesque@5.2.10': {}
+
   '@fontsource/roboto@5.2.7': {}
+
+  '@fontsource/sen@5.2.8': {}
+
+  '@fontsource/sometype-mono@5.2.7': {}
 
   '@humanfs/core@0.19.1': {}
 

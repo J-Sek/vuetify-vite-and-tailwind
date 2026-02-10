@@ -52,9 +52,16 @@ export default defineConfig({
       fontsource: {
         families: [
           {
-            name: 'Roboto',
-            weights: [100, 300, 400, 500, 700, 900],
-            styles: ['normal', 'italic'],
+            name: 'Bricolage Grotesque',
+            weights: [300, 400, 500, 700],
+          },
+          {
+            name: 'Sen',
+            weights: [400, 500, 700],
+          },
+          {
+            name: 'Sometype Mono',
+            weights: [400, 700],
           },
         ],
       },

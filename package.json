@@ -12,7 +12,10 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
+    "@fontsource/bricolage-grotesque": "^5.2.10",
     "@fontsource/roboto": "5.2.7",
+    "@fontsource/sen": "^5.2.8",
+    "@fontsource/sometype-mono": "^5.2.7",
     "@mdi/font": "7.4.47",
     "pinia": "^3.0.3",
     "vue": "^3.5.28",
