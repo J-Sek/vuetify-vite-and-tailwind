@@ -107,11 +107,12 @@
 @reference "../styles/tailwind.css";
 
 .hero-card {
-  @apply md:col-span-2 md:py-4 sm:pr-[120px] w-full
+  @apply md:col-span-2 md:py-4 sm:pr-[120px] w-full bg-primary-100 dark:bg-primary-900
 }
 
 .feature-card {
-  @apply flex items-center [&>.v-card-item]:w-full;
+  @apply flex items-center [&>.v-card-item]:w-full bg-secondary-100;
+  @apply dark:bg-linear-to-r dark:from-secondary-800 dark:to-secondary-600 dark:text-white;
 
   .v-card-item {
     @apply self-stretch;

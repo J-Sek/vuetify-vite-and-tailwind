@@ -12,7 +12,28 @@
   --radius-sm: 2px;
   --radius-lg: 8px;
   --radius-xl: 24px;
+
+  --color-background: rgb(var(--v-theme-background));
+  --color-surface: rgb(var(--v-theme-surface));
+  --color-success: rgb(var(--v-theme-success));
+  --color-info: rgb(var(--v-theme-info));
+  --color-warning: rgb(var(--v-theme-warning));
+  --color-error: rgb(var(--v-theme-error));
+
+  --color-primary-100: #a7e0ff;
+  --color-primary-900: #003256;
+  --color-secondary-100: #92f7ff;
+  --color-secondary-200: #57f0ff;
+  --color-secondary-300: #10e3fb;
+  --color-secondary-400: #00c1da;
+  --color-secondary-500: #009fbd;
+  --color-secondary-600: #0087a4;
+  --color-secondary-700: #097088;
+  --color-secondary-800: #0d5d73;
 }
+
+@custom-variant light (&:where(.v-theme--light, .v-theme--light *));
+@custom-variant dark (&:where(.v-theme--dark, .v-theme--dark *));
 
 @utility rounded-0 { border-radius: 0 }
 @utility rounded-pill { border-radius: 9999px }
@@ -30,3 +51,14 @@
 @source inline('rounded-pill');
 @source inline('rounded-circle');
 @source inline('rounded-shaped');
+
+@source inline('bg-success');
+@source inline('text-success');
+@source inline('bg-success');
+@source inline('text-success');
+@source inline('bg-info');
+@source inline('text-info');
+@source inline('bg-warning');
+@source inline('text-warning');
+@source inline('bg-error');
+@source inline('text-error');
